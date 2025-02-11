@@ -144,3 +144,7 @@
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+.small-text {
+  font-size: 0.6em;
+}

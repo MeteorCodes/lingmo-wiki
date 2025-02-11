@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Lingmo Wiki"
-  text: Everything about Lingmo and Lingmo OS
+  text: <span class="small-text">Everything about Lingmo and Lingmo OS</span>
   image:
     src: /background.png
     alt: Background Image
@@ -13,7 +13,10 @@ hero:
       link: wiki/getting-started
     - theme: alt
       text: Official Website
-      link: https://www.lingmo.org
+      link: https://www.lingmo.org/en
+    - theme: alt
+      text: Official BBS
+      link: https://bbs.lingmo.org/
     - theme: alt
       text: GitHub
       link: https://github.com/LingmoOS/lingmo-wiki
@@ -24,6 +27,7 @@ features:
     link: wiki/getting-started
   - title: About Lingmo Wiki
     icon: 📕
+    link: wiki/about-wiki
   - title: FAQ
     icon: ❓
     link: wiki/faq
@@ -35,11 +39,13 @@ features:
     link: wiki/glossary
   - title: Tutorials & Howtos
     icon: 📝
+    link: wiki/tutorial
   - title: Developers and Contributors' Guide
     icon: 🌱
     link: wiki/develop-guide
   - title: History
     icon: 📖
+    link: wiki/history
 ---
 > [!Important]
 > The entire Wiki is WIP (and you can see that some articles are not available), which means that it's incomplete and contains errors!
