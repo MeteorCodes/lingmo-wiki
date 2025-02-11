@@ -3,14 +3,14 @@ layout: home
 
 hero:
   name: "Lingmo Wiki"
-  text: 关于 Lingmo 和 Lingmo OS 的所有信息
+  text: 挖掘无限可能，创造非凡体验
   image:
     src: /background.png
     alt: 背景图片
   actions:
     - theme: brand
       text: 开始使用
-      link: wiki/getting-started
+      link: zh/wiki/getting-started
     - theme: alt
       text: 官方网站
       link: https://www.lingmo.org

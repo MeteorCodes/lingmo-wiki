@@ -5,9 +5,9 @@
 - lingmo-core
 - lingmoui
 - liblingmo
-- [lingmo-filemanager](lingmo-filemanager)
+- [lingmo-filemanager](lingmo-filemanager.md)
 - lingmo-settings
-- [lingmo-terminal](lingmo-terminal)
+- [lingmo-terminal](lingmo-terminal.md)
 - lingmo-dock
 - lingmo-launcher
 - lingmo-statusbar
