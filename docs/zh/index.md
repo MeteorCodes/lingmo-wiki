@@ -3,17 +3,20 @@ layout: home
 
 hero:
   name: "Lingmo Wiki"
-  text: 关于 Lingmo 和 Lingmo OS 的所有信息
+  text: <span class="small-text">挖掘无限可能，创造非凡体验</span>
   image:
     src: /background.png
     alt: 背景图片
   actions:
     - theme: brand
       text: 开始使用
-      link: wiki/getting-started
+      link: zh/wiki/getting-started
     - theme: alt
       text: 官方网站
-      link: https://www.lingmo.org
+      link: https://www.lingmo.org/zh-cn
+    - theme: alt
+      text: 官方论坛
+      link: https://bbs.lingmo.org/
     - theme: alt
       text: GitHub
       link: https://github.com/LingmoOS/lingmo-wiki
@@ -24,6 +27,7 @@ features:
     link: zh/wiki/getting-started
   - title: 关于 Lingmo Wiki
     icon: 📕
+    link: zh/wiki/about-wiki
   - title: FAQ
     icon: ❓
     link: zh/wiki/faq
@@ -35,11 +39,13 @@ features:
     link: zh/wiki/glossary
   - title: 教程
     icon: 📝
+    link: zh/wiki/tutorial
   - title: 开发者与贡献者指南
     icon: 🌱
     link: zh/wiki/develop-guide
   - title: 历史
     icon: 📖
+    link: zh/wiki/history
 ---
 > [!Important]
 > 该 Wiki 仍然在完善中 （因此有些文章尚不可用），这意味着它不完整且可能包含错误！

@@ -17,6 +17,6 @@ export const zh = defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-      { text: '首页', link: '/' }
+      { text: '首页', link: '/zh' }
   ]
 }
