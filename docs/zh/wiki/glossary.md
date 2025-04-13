@@ -8,7 +8,7 @@
 
 - <https://github.com/LingmoOS-Testing/archlingmo-archiso-config>
 - <https://github.com/LingmoOS-Testing/archlingmo-pkg>
-- <https://github.com/Lingmo-Archive/archlingmo-releases>
+- <https://github.com/LingmoOS-Archive/archlingmo-releases>
 
 ## Lingmo（灵墨）
 
@@ -31,4 +31,4 @@ Lingmo OS 的默认桌面环境, 由 Cutefish 桌面环境（[CutefishOS](https:
 
 ## LingmoNix
 
-见<https://github.com/LingmoOS-Testing/lingmo-nix>.
+见<https://github.com/LingmoOS-Testing/lingmo-nix>与<https://github.com/LingmoOS-Testing/LingmoNix-Starter>.
