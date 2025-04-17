@@ -2,76 +2,7 @@
 
 该列表提供了Lingmo OS组件的结构化概览，按类别组织以便于浏览。每个组件均链接到其对应的GitHub仓库，并包含其在[default.xml](https://github.com/LingmoOS/manifest/blob/main/default.xml)文件中设置的路径。列表还包含每个组件的简要描述、文档链接和许可信息。
 
-## 内核与系统服务
-
-**简介：**  
-内核与系统服务类别构成了Lingmo OS的基础，管理硬件交互并提供基本服务。包括Linux内核、核心系统服务和确保操作系统流畅运行的守护进程。对底层操作、系统性能和核心功能增强感兴趣的开发者会发现此部分至关重要。
-
-### **linux**  
-
-- 路径: `kernel`  
-- 仓库地址: [https://github.com/LingmoOS/linux](https://github.com/LingmoOS/linux)  
-
-  **描述：**  
-  Linux内核是LingmoOS操作系统的核心，负责管理系统资源、硬件通信并为应用程序提供基本服务。  
-
-  **文档：**  
-  - 格式化文档可在线查看：[https://www.kernel.org/doc/html/latest/](https://www.kernel.org/doc/html/latest/)  
-
-  **许可证：**  
-  Linux内核采用以下许可：  
-  - **SPDX许可证标识符：** `GPL-2.0 WITH Linux-syscall-note`  
-  - 内核根据GNU通用公共许可证第二版（`GPL-2.0`）许可，并包含`LICENSES/exceptions/Linux-syscall-note`中明确的系统调用例外条款。  
-
-  **注意：**  
-  - 构建指令请参考官方文档。
-
-### **linux-package**  
-
-- 路径: `kernel/debian`  
-- 仓库地址: [https://github.com/LingmoOS/linux-package](https://github.com/LingmoOS/linux-package)  
-
-  **描述：**  
-  适用于Debian的Linux内核包，包含补丁、配置文件和用于构建与自定义内核的工具。  
-
-  **补丁：**  
-  - Debian对内核源码进行小幅修改，拆分为独立补丁。  
-  - 补丁可在源码包或以下路径找到：  
-    `https://sources.debian.org/src/linux/<version>/debian/patches/`  
-
-  **配置文件：**  
-  - 用于构建不同`linux-image`包的`.config`文件在构建过程中动态生成。  
-  - 每个`linux-image-*`包提供完整的构建用`.config`文件，安装于`/boot`目录。  
-
-  **安全支持范围：**  
-  - 为二进制构建和完整源码包提供安全支持。  
-  - 官方Debian构建中未启用的内核选项在安全支持中优先级较低。  
-
-  **注意：**  
-  - 构建指令请参考官方文档。  
-
-  **移除非自由内容：**  
-  - 参见`debian/copyright`中的`Files-Excluded`字段（注：暂未找到 😅）。  
-
-  **变更日志：**  
-  - 旧版Debian变更日志条目不再包含在二进制包中，但可在源码包的`debian/changelog.old`中找到。  
-
-  **更多信息：**  
-  - Debian Linux内核手册：[https://kernel-team.pages.debian.net/kernel-handbook/](https://kernel-team.pages.debian.net/kernel-handbook/)  
-  - Debian Wiki：[https://wiki.debian.org/DebianKernel](https://wiki.debian.org/DebianKernel)  
-
-  **许可证：**  
-  - 格式：[https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/)  
-  - 上游名称：Linux内核  
-  - 源码：[https://www.kernel.org/pub/linux/kernel/](https://www.kernel.org/pub/linux/kernel/)  
-  - 排除文件：参见`debian/copyright`。  
-  - 许可文本：  
-    - `GPL-2`: [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)  
-    - `LGPL-2.1`: [https://www.gnu.org/licenses/lgpl-2.1.html](https://www.gnu.org/licenses/lgpl-2.1.html)  
-    - `BSD-2-clause`: [https://opensource.org/licenses/BSD-2-Clause](https://opensource.org/licenses/BSD-2-Clause)  
-
-  **注意：**  
-  - 构建指令请参考官方文档。  
+## 系统服务
 
 ### **lingmo-core**  
 
